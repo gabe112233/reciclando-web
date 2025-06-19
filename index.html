@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ReciclAndo App</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    .features, .ranking-table {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .feature {
+      background: #e8f5e9;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #c8e6c9;
+      margin-top: 40px;
+    }
+    .ranking-table table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .ranking-table th, .ranking-table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    .map-placeholder {
+      background: #dcedc8;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #33691e;
+      border-radius: 8px;
+    }
+    .btn-descargar {
+      display: inline-block;
+      background: #388e3c;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ReciclAndo App</h1>
+    <p>Recicla, gana puntos y ayuda al planeta 🌍</p>
+    <a href="#" class="btn-descargar">Descargar App</a>
+  </header>
+
+  <section>
+    <h2>¿Cómo funciona?</h2>
+    <div class="features">
+      <div class="feature">1. Encuentra máquinas de reciclaje cercanas</div>
+      <div class="feature">2. Deposita tus materiales reciclables</div>
+      <div class="feature">3. Gana puntos y compite en la comunidad</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Mapa de reciclaje</h2>
+    <div class="map-placeholder">
+      [Aquí se mostraría un mapa interactivo con las máquinas de reciclaje 🗺️]
+    </div>
+  </section>
+
+  <section>
+    <h2>Ranking Comunitario</h2>
+    <div class="ranking-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Posición</th>
+            <th>Nombre</th>
+            <th>Puntos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>María</td><td>500</td></tr>
+          <tr><td>2</td><td>Luis</td><td>430</td></tr>
+          <tr><td>3</td><td>Tú</td><td>420</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <p>Desarrollado por Gabriel Palacios</p>
+    <p>Correo: gabriel@example.com</p>
+    <p><a href="#">Repositorio GitHub</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 ReciclAndo App. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
